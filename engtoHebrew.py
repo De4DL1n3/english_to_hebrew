@@ -1,8 +1,6 @@
-import sys
-
 def main():
-    strEng = input("Tirshom: \n")
-    print(switchLetters(strEng))
+    strEng = input("English String: \n")
+    print(f"Your fixed Hebrew text is: {switchLetters(strEng)}")
 
 def switchLetters(strEng):
     list_eng_lc = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/','\n',' ']
