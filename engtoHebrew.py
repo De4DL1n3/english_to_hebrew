@@ -12,6 +12,8 @@ def switchLetters(strEng):
             strFixed += list_heb[list_eng_lc.index(strEng[i])]
         elif strEng[i] in list_eng_uc:
             strFixed += list_heb[list_eng_uc.index(strEng[i])]
+        else:
+            strFixed += strEng[i]
     return strFixed
 
 if __name__ == "__main__":
